@@ -2,6 +2,9 @@
 
 
 def common_elem(list1, list2):
+	'''
+	Return common elements within two list witn O(n)
+	'''
 	ind_l1 = 0
 	ind_l2 = 0
 	out_list = []
@@ -23,6 +26,7 @@ def common_elem(list1, list2):
 	return out_list
 
 def common_elem_set(list1, list2):
+	
 	return list(set(list1).intersection(set(list2)))
 
 

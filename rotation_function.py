@@ -1,7 +1,9 @@
-list1 = [1, 2, 3, 4, 5, 6, 7]
-list2 = [6, 7, 10, 2, 4, 3, 5]
+
 
 def rotation_func(list1, list2):
+	''''
+	Return True if two list is rationtion. False otherwise 
+	'''
 
 	if len(list1) != len(list2):
 		return False
@@ -25,5 +27,7 @@ def rotation_func(list1, list2):
 	return True
 
 
+list1 = [1, 2, 3, 4, 5, 6, 7]
+list2 = [6, 7, 1, 2, 4, 3, 5]
 
 print(rotation_func(list1,list2))
