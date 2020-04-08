@@ -1,6 +1,11 @@
 from collections import Counter, defaultdict
 from time_decorator import timeit
 
+'''
+Given an array what is the most feequently 
+occuring element
+'''
+
 #best way
 @timeit
 def find_freq_elem(a_list):
